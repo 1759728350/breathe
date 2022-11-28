@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "计算机基础/第二章_操作系统.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "087b5e094027f7a4",
@@ -134,8 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 484,
-    "collapsed": true
+    "width": 317
   },
   "active": "ea5c2557b7069928",
   "lastOpenFiles": [
