@@ -3,7 +3,7 @@
 gantt
     dateFormat  HH-mm
     axisFormat %H:%M
-    %% Current Time: 23:21:54
+    %% Current Time: 23:59:59
     section Tasks
     计算机基础第三章第六课开始     :15-00, 80mm
     第一节课结束     :16-20, 10mm
