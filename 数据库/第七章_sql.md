@@ -75,8 +75,93 @@ remove file JXGL_1    #文件逻辑名不加后缀
 
 总结:二级命令主要是:modify file ,add file,add log file,remove file
 
-#### 数据库表
-##### 数据类型
-
-
 #### 创建表
+主键多个就放在表级约束
+多个表末尾不要忘记加  "  ;  "
+![](img/Pasted%20image%2020221226155036.png)
+![](img/Pasted%20image%2020221226155220.png)
+#### 删除表
+```sql
+drop table 表名
+```
+
+#### 修改表
+##### 修改列
+修改表中列的数据类型
+```sql
+alter table 表名
+alter column 列名 <数据类型> <约束>  ##数据类型和约束需要改哪个
+##就写哪个
+ALTER TABLE S
+ALTER COLUMN SEX CHAR(1)##将sex列数据类型修改为char
+```
+
+##### 增加列
+```sql
+alter table 表名
+add 列名 数据类型 约束  ##add语句不需要加column
+```
+
+##### 删除列
+```sql
+alter table 表名
+drop column 列名
+```
+修改列名:
+因为没有修改列名的语句
+可以先删后加
+```sql
+##在学生表S中,将AGE列名改为BIRTHDAY,数据类型为DATE
+alter table S
+drop column AGE;
+alter table S
+add BIRTHDAT DATE;
+```
+
+##### 增加删除约束
+```sql
+alter table 表名
+add constraint 约束名 约束内容
+##删除约束
+alter table 表名
+drop constraint 约束名
+```
+
+#### 查询
+查询全体学生的姓名及其出生年份。
+```sql
+select sname, year(getdate())-age as birthday from S
+##year()获取时间参数中的年份
+##getdate()获取当前时间
+```
+
+![](img/Pasted%20image%2020221226175525.png)
+![](img/Pasted%20image%2020221226182019.png)
+##### distinct去重
+加载查询属性前面
+```sql
+select distinct sno from SC where grade < 60
+```
+
+##### in集合包含
+```sql
+##查询计算机科学系(CS),数学系(MA)和信息系(IS)学生的姓名和性别。
+select sname,ssex from student 
+where sdept in('CS','MA','IS');
+##当in中需要多个值就用圆括号括起来
+```
+
+##### like字符匹配
+通配符
+%:0-多个字符,比如:例a%b->acb,ab,acccccb都符合
+\_:任意单个字符,比如:例a_b->acb,aeb,aab符合
+当要查的就是上面两个符号时用escape转义'\\'->DB%=>like 'DB\\%' escape'\\' 
+```sql
+##查询所有姓“刘”的学生的姓名、学号和性别
+select sno,sname,ssex from student where
+sname like '刘%'; 
+##查询姓“李”且全名最多为3个汉字的学生的姓名
+where sname like '李__' or sname like '李_' ##后面的sanme不能省
+```
+
+
