@@ -119,7 +119,7 @@ x趋近于0也为0
 ### 极限不存在
 ##### 极限不存在的情况
 * <font color=#F09B59 style=" font-weight:bold;">极限为无穷</font>
-* <font color=#F09B59 style=" font-weight:bold;">左右极限不相等</font>]
+* <font color=#F09B59 style=" font-weight:bold;">左右极限不相等</font>
 * <font color=#F09B59 style=" font-weight:bold;">极限不是确定的常数</font>
 例1:
 cosx   x趋于无穷,
@@ -210,19 +210,18 @@ a(x)<=b(x)<=c(x)
 
 
 ##### 间断点
-左右极限存在
+什么是间断点?=>该点不连续
 * 跳跃间断点
+左右极限存在,但不相等
 * 可去间断点
-左右极限不存在
+左右极限存在且相等,但不与该点函数值相等
 * 无穷间断点
+该点的左右极限任意一个为无穷
 ![](img/Pasted%20image%2020221013102039.png)
 可去间断点左右极限相同
 跳跃间断点左右极限不同
 
 
-
-何为无穷间断点?
-该点的左右极限均为无穷
 
 ##### 解题思路
 * 找到可疑间断点
