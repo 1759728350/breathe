@@ -1,0 +1,136 @@
+{
+  "main": {
+    "id": "03e48e08ab411fed",
+    "type": "split",
+    "children": [
+      {
+        "id": "f6e5b31dff623d1f",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6d4bb52aa6416c53",
+    "type": "split",
+    "children": [
+      {
+        "id": "487c7333c31da16a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7d7c79a106679c44",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "10e34b0b023a06f2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "16a6cc3829a596e9",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 405
+  },
+  "right": {
+    "id": "fd22a51f8a10e99d",
+    "type": "split",
+    "children": [
+      {
+        "id": "17914db88f350a54",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "894d029e468cee3b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "f557a1c291c56739",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "16f16bb983eb882e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ba0d3d0b47340067",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 286
+  },
+  "active": "f6e5b31dff623d1f",
+  "lastOpenFiles": [
+    "all_notes/project_blog/文件上传和下载.md",
+    "all_notes/project_blog/springboot访问其下的静态资源(imghtml).md",
+    "all_notes/project_blog/img/Pasted image 20220813223352.png",
+    "all_notes/elang/one more.md",
+    "all_notes/java/未来总学习路线.md",
+    "all_notes/OSandLinux/jyy_nju_os/操作系统.md",
+    "all_notes/java/java面试内化.md",
+    "all_notes/front/UI/figma快捷键.md",
+    "Pasted image 20220721232349.png",
+    "Pasted image 20220721234108.png"
+  ]
+}

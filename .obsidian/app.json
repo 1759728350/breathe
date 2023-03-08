@@ -1,0 +1,20 @@
+{
+  "attachmentFolderPath": "./img",
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
+  "newFileLocation": "current",
+  "showInlineTitle": false,
+  "useTab": false,
+  "smartIndentList": true,
+  "livePreview": true,
+  "autoConvertHtml": false,
+  "showFrontmatter": true,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "strictLineBreaks": true,
+  "showLineNumber": true
+}
