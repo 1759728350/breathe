@@ -8,55 +8,30 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fa348d7762631da8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "c语言/嵌入式c_内存操作.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "7aafa188859bab20",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "c语言/嵌入式c_内存操作.md",
+                "file": "c语言/函数.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "689527b43ac7d576",
+            "id": "c6ec60d9d3939402",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "c语言/数组.md",
+                "file": "c语言/数据类型.md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ebd5762dcf7bf6b5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "math/内化/第四课_连续与求导总结.md",
-                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/内化/第四课_连续与求导总结.md",
+                "file": "c语言/函数.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "math/内化/第四课_连续与求导总结.md",
+                "file": "c语言/函数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/内化/第四课_连续与求导总结.md"
+                "file": "c语言/函数.md"
               }
             }
           }
@@ -176,26 +151,27 @@
   "left-ribbon": {
     "hiddenItems": {
       "canvas:新建白板": false,
-      "oz-clear-unused-images:Clear Unused Images": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "ebd5762dcf7bf6b5",
+  "active": "7aafa188859bab20",
   "lastOpenFiles": [
+    "Day Planners/Day Planner-20230310.md",
+    "c语言/数据类型.md",
+    "c语言/函数.md",
+    "c语言/嵌入式c_内存操作.md",
+    "math/内化/第四课_连续与求导总结.md",
     "Day Planners/Day Planner-20230308.md",
     "math/内化/积分.md",
     "math/内化/第五课_微分及导数其他性质总结.md",
-    "math/内化/第四课_连续与求导总结.md",
     "math/内化/第三课_重要极限总结.md",
     "math/第八课_定积分.pdf",
-    "c语言/函数.md",
-    "c语言/嵌入式c_内存操作.md",
     "c语言/数组.md",
-    "c语言/数据类型.md",
     "c语言/结构体.md",
     "c语言/指针.md",
     "Day Planners/Day Planner-20230307.md",
@@ -212,7 +188,6 @@
     "Day Planners/Day Planner-20230305.md",
     "数据库/第一章_数据库概念.md",
     "数据库/第二章_键与独立性.md",
-    "数据库/第三章_6设计阶段.md",
     "c语言/img/Pasted image 20230302185241.png",
     "math/第六课_不定积分.pdf",
     "math/第七课_不定积分二.pdf",
