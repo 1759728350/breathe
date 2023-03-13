@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "c语言/函数.md",
+                "file": "c语言/专升本_做题.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "c语言/函数.md",
+                "file": "c语言/专升本_做题.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "c语言/函数.md",
+                "file": "c语言/专升本_做题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "c语言/函数.md"
+                "file": "c语言/专升本_做题.md"
               }
             }
           }
@@ -198,6 +198,7 @@
   },
   "active": "ebd5762dcf7bf6b5",
   "lastOpenFiles": [
+    "c语言/函数.md",
     "c语言/数组.md",
     "c语言/内存分区.md",
     "c语言/专升本_做题.md",
@@ -223,7 +224,6 @@
     "math/内化/第五课_微分及导数其他性质总结.md",
     "math/内化/第三课_重要极限总结.md",
     "math/第八课_定积分.pdf",
-    "c语言/函数.md",
     "c语言/嵌入式c_内存操作.md",
     "c语言/数据类型.md",
     "c语言/结构体.md",
