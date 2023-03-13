@@ -49,8 +49,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "math/内化/第四课_连续与求导总结.md",
-                "mode": "preview",
+                "file": "c语言/函数.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "49623109e7310fe2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "c语言/专升本_细枝末节.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/内化/第四课_连续与求导总结.md",
+                "file": "c语言/函数.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "math/内化/第四课_连续与求导总结.md",
+                "file": "c语言/函数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/内化/第四课_连续与求导总结.md"
+                "file": "c语言/函数.md"
               }
             }
           }
@@ -186,15 +198,33 @@
   },
   "active": "ebd5762dcf7bf6b5",
   "lastOpenFiles": [
-    "Day Planners/Day Planner-20230308.md",
+    "c语言/数组.md",
+    "c语言/内存分区.md",
+    "c语言/专升本_做题.md",
+    "c语言/img/Pasted image 20230313142214.png",
+    "c语言/img/Pasted image 20230313140247.png",
+    "c语言/img/Pasted image 20230313140137.png",
+    "c语言/img/Pasted image 20230313140107.png",
+    "c语言/img/Pasted image 20230313133518.png",
+    "c语言/img/Pasted image 20230313133313.png",
+    "c语言/img/Pasted image 20230313133233.png",
+    "c语言/img/Pasted image 20230313133100.png",
+    "c语言/img/Pasted image 20230313132942.png",
+    "c语言/img/Pasted image 20230313132728.png",
+    "Day Planners/Day Planner-20230313.md",
+    "c语言/专升本_细枝末节.md",
+    "Day Planners/Day Planner-20230312.md",
+    "Day Planners/Day Planner-20230311.md",
     "math/内化/积分.md",
-    "math/内化/第五课_微分及导数其他性质总结.md",
+    "Day Planners/Day Planner-20230310.md",
     "math/内化/第四课_连续与求导总结.md",
+    "Day Planners/Day Planner-20230309.md",
+    "Day Planners/Day Planner-20230308.md",
+    "math/内化/第五课_微分及导数其他性质总结.md",
     "math/内化/第三课_重要极限总结.md",
     "math/第八课_定积分.pdf",
     "c语言/函数.md",
     "c语言/嵌入式c_内存操作.md",
-    "c语言/数组.md",
     "c语言/数据类型.md",
     "c语言/结构体.md",
     "c语言/指针.md",
@@ -205,15 +235,6 @@
     "math/jg_第一章_极限.md",
     "math/jg_第三章_积分.md",
     "math/第二课_函数复习与极限.md",
-    "c语言/链接.md",
-    "c语言/内存分区.md",
-    "c语言/static关键字.md",
-    "c语言/专升本_细枝末节.md",
-    "Day Planners/Day Planner-20230305.md",
-    "数据库/第一章_数据库概念.md",
-    "数据库/第二章_键与独立性.md",
-    "数据库/第三章_6设计阶段.md",
-    "c语言/img/Pasted image 20230302185241.png",
     "math/第六课_不定积分.pdf",
     "math/第七课_不定积分二.pdf",
     "math/第三课_重要极限.pdf"
