@@ -8,67 +8,55 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fa348d7762631da8",
+            "id": "1f2be905c404067d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "c语言/嵌入式c_内存操作.md",
+                "file": "数据库/第一章_数据库概念.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bb96da768cd25c30",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "数据库/第二章_关系模型与独立性.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "7aafa188859bab20",
+            "id": "26b80a7e2665a586",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "c语言/嵌入式c_内存操作.md",
+                "file": "数据库/第三章_6设计阶段.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "689527b43ac7d576",
+            "id": "5f4634a99ad6011a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "c语言/数组.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ebd5762dcf7bf6b5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "c语言/专升本_做题.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "49623109e7310fe2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "c语言/专升本_细枝末节.md",
+                "file": "数据库/第七章_DQL_DMLsql.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -134,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "c语言/专升本_做题.md",
+                "file": "数据库/第三章_6设计阶段.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "c语言/专升本_做题.md",
+                "file": "数据库/第三章_6设计阶段.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "c语言/专升本_做题.md"
+                "file": "数据库/第三章_6设计阶段.md"
               }
             }
           }
@@ -196,47 +184,53 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ebd5762dcf7bf6b5",
+  "active": "26b80a7e2665a586",
   "lastOpenFiles": [
+    "数据库/img/Pasted image 20230315235320.png",
+    "数据库/img/Pasted image 20230315235059.png",
+    "数据库/img/Pasted image 20230315234718.png",
+    "数据库/img/Pasted image 20230315234619.png",
+    "数据库/img/Pasted image 20230315234428.png",
+    "数据库/img/Pasted image 20230315234330.png",
+    "数据库/img/Pasted image 20230315233152.png",
+    "数据库/第二章_关系模型与独立性.md",
+    "数据库/img/Pasted image 20230315233002.png",
+    "数据库/第一章_数据库概念.md",
+    "数据库/第三章_6设计阶段.md",
+    "数据库/img/Pasted image 20230315232757.png",
+    "数据库/img/Pasted image 20230315232706.png",
+    "数据库/img/Pasted image 20230315232612.png",
+    "数据库/第七章_DQL_DMLsql.md",
+    "数据库/第八章_DML.md",
+    "数据库/第四章_范式.md",
+    "数据库/第五章_安全性DCL.md",
+    "数据库/第六章_并发.md",
+    "math/第十一课_多元函数与微分.pdf",
+    "math/第十课_空间解析几何与向量.pdf",
+    "math/第九课_分部积分求定积分.pdf",
+    "math/多元函数与微分.pdf",
+    "math/空 间 解 析 几 何 与 向 量.pdf",
+    "math/分 部 积 分 求 定 积 分.pdf",
+    "Day Planners/Day Planner-20230315.md",
+    "软件测试/第一章.md",
+    "Day Planners/Day Planner-20230314.md",
+    "Day Planners",
+    "Day Planners/Day Planner-20230209.md",
+    "Day Planners/Day Planner-20230127.md",
+    "c语言/位操作.md",
+    "c语言/其他.md",
+    "c语言/const关键词.md",
+    "c语言/static关键字.md",
+    "c语言/指针.md",
     "c语言/函数.md",
     "c语言/数组.md",
-    "c语言/内存分区.md",
-    "c语言/专升本_做题.md",
-    "c语言/img/Pasted image 20230313142214.png",
-    "c语言/img/Pasted image 20230313140247.png",
-    "c语言/img/Pasted image 20230313140137.png",
-    "c语言/img/Pasted image 20230313140107.png",
-    "c语言/img/Pasted image 20230313133518.png",
-    "c语言/img/Pasted image 20230313133313.png",
-    "c语言/img/Pasted image 20230313133233.png",
-    "c语言/img/Pasted image 20230313133100.png",
-    "c语言/img/Pasted image 20230313132942.png",
-    "c语言/img/Pasted image 20230313132728.png",
-    "Day Planners/Day Planner-20230313.md",
-    "c语言/专升本_细枝末节.md",
-    "Day Planners/Day Planner-20230312.md",
-    "Day Planners/Day Planner-20230311.md",
-    "math/内化/积分.md",
-    "Day Planners/Day Planner-20230310.md",
-    "math/内化/第四课_连续与求导总结.md",
-    "Day Planners/Day Planner-20230309.md",
-    "Day Planners/Day Planner-20230308.md",
-    "math/内化/第五课_微分及导数其他性质总结.md",
-    "math/内化/第三课_重要极限总结.md",
-    "math/第八课_定积分.pdf",
-    "c语言/嵌入式c_内存操作.md",
     "c语言/数据类型.md",
-    "c语言/结构体.md",
-    "c语言/指针.md",
-    "Day Planners/Day Planner-20230307.md",
-    "c语言/const关键词.md",
-    "Day Planners/Day Planner-20230306.md",
-    "math/jg_第二章_导数.md",
-    "math/jg_第一章_极限.md",
-    "math/jg_第三章_积分.md",
-    "math/第二课_函数复习与极限.md",
+    "c语言/宏定义.md",
+    "c语言/专升本_做题.md",
+    "c语言/专升本_细枝末节.md",
+    "c语言/内存分区.md",
+    "math/第八课_定积分.pdf",
     "math/第六课_不定积分.pdf",
-    "math/第七课_不定积分二.pdf",
-    "math/第三课_重要极限.pdf"
+    "math/第七课_不定积分二.pdf"
   ]
 }
