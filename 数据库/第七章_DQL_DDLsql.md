@@ -1,3 +1,10 @@
+##### 四种sql分类
+DDL包括create alter drop  
+DQL是select语句  
+DCL是grant deny revoke  
+![](img/Pasted%20image%2020230316233727.png)
+![](img/Pasted%20image%2020230317000820.png)
+
 ##### 支持数据库运行的文件  
   
 支持数据库运行的文件有（主数据文件.mdf)，(辅助数据文件.ndf）和（日志文件.ldf)，  
@@ -42,8 +49,9 @@ filename地址名
 drop database LV #删除数据库LV  
 ```  
   
-#### 修改数据库  
-##### 修改  
+#### 修改数据库配置  
+<font color=#F09B59 style=" font-weight:bold;">用的是add remove modify,注意和crud区别</font>  
+##### 修改文件  
 在原有文件上修改  
 ![](img/Pasted%20image%2020221224214645.png)  
 例,为教学管理数据库JXGL增加容量,原来的数据库文件JXGL. mdf的初始分配空间为3MB(默认值),现在将增至10MB。  
@@ -53,7 +61,7 @@ modify file
 (name=JXGL,size=10)    ##文件逻辑名不加后缀,物理名才加  
 ```  
   
-##### 增加  
+##### 增加文件  
 增加了一个文件  
 ![](img/Pasted%20image%2020221224220354.png)  
 例5.5为教学管理数据库JXGL<font color=#66CC99 style=" font-weight:bold;">增加</font>辅助数据<font color=#66CC99 style=" font-weight:bold;">文件</font>JXGL_1.NDF,存在D: \Data,初始大小为5MB,最大长度为30MB,按照5%增长。  
@@ -65,7 +73,7 @@ maxsize=30,filegrowth=5%)
 ```  
 ![](img/Pasted%20image%2020221224220454.png)  
   
-##### 删除  
+##### 删除文件  
 ![](img/Pasted%20image%2020221224220603.png)  
 删除教学管理数据库JXGL中的辅助数据文件JXGL_1.ndf。  
 ```sql  
@@ -80,12 +88,20 @@ remove file JXGL_1    #文件逻辑名不加后缀
 多个表末尾不要忘记加  "  ;  "  
 ![](img/Pasted%20image%2020221226155036.png)  
 ![](img/Pasted%20image%2020221226155220.png)  
+
+![](img/Pasted%20image%2020230316234250.png)
+![](img/Pasted%20image%2020230317000739.png)
+
 #### 删除表  
 ```sql  
 drop table 表名  
 ```  
-  
-#### 修改表  
+![](img/Pasted%20image%2020230316234541.png)
+
+区分drop和delete  
+delete删除一行行元组记录的  
+#### 修改表结构  
+<font color=#F09B59 style=" font-weight:bold;">add drop alter区别于crud</font>
 ##### 修改列  
 修改表中列的数据类型  
 ```sql  
@@ -101,7 +117,7 @@ ALTER COLUMN SEX CHAR(1)##将sex列数据类型修改为char
 alter table 表名  
 add 列名 数据类型 约束  ##add语句不需要加column  
 ```  
-  
+![](img/Pasted%20image%2020230316235459.png)
 ##### 删除列  
 ```sql  
 alter table 表名  
@@ -117,7 +133,8 @@ drop column AGE;
 alter table S  
 add BIRTHDAT DATE;  
 ```  
-  
+![](img/Pasted%20image%2020230317000038.png)
+
 ##### 增加删除约束  
 ```sql  
 alter table 表名  
@@ -151,11 +168,12 @@ where sdept in('CS','MA','IS');
 ##当in中需要多个值就用圆括号括起来  
 ```  
   
-##### like字符匹配  
+##### like字符匹配模糊查询  
 通配符  
 %:0-多个字符,比如:例a%b->acb,ab,acccccb都符合  
-\_:任意单个字符,比如:例a_b->acb,aeb,aab符合  
+\_:只能一个字符,比如:例a_b->acb,aeb,aab符合  
 当要查的就是上面两个符号时用escape转义'\\'->DB%=>like 'DB\\%' escape'\\'   
+![](img/Pasted%20image%2020230316233540.png)
 ```sql  
 ##查询所有姓“刘”的学生的姓名、学号和性别  
 select sno,sname,ssex from student where  
@@ -185,6 +203,7 @@ top加在属性前面
 ![](img/Pasted%20image%2020221228212006.png)  
 只有count(\*)不忽略空值 <font color=#66CC99 style=" font-weight:bold;">count(属性列)会忽略空值!!!</font>  
 其他聚合函数都忽略空值  
+![](img/Pasted%20image%2020230316232018.png)
 ```sql  
 select count(*) as '学生人数' from student   
 ```  
@@ -248,3 +267,13 @@ where sdept = '计算机系' and sex = '男'
 ```  
 多表连接还可以用where条件代替join  
 from S,SC where sc.sno = s.sno and 条件  
+
+##### 子查询
+![](img/Pasted%20image%2020230316231107.png)
+
+
+
+#### 其他
+null只有在update的set后面可以用等号  
+其余都只能用is  
+![](img/Pasted%20image%2020230316232200.png)

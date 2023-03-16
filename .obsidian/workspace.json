@@ -8,19 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1f2be905c404067d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "数据库/第一章_数据库概念.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bb96da768cd25c30",
+            "id": "5f4634a99ad6011a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -37,26 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库/第三章_6设计阶段.md",
+                "file": "数据库/第八章_DML和视图索引.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "5f4634a99ad6011a",
+            "id": "b0bf869af293219a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库/第七章_DQL_DMLsql.md",
+                "file": "数据库/第七章_DQL_DDLsql.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据库/第三章_6设计阶段.md",
+                "file": "数据库/第八章_DML和视图索引.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据库/第三章_6设计阶段.md",
+                "file": "数据库/第八章_DML和视图索引.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据库/第三章_6设计阶段.md"
+                "file": "数据库/第八章_DML和视图索引.md"
               }
             }
           }
@@ -186,25 +174,27 @@
   },
   "active": "26b80a7e2665a586",
   "lastOpenFiles": [
-    "数据库/img/Pasted image 20230315235320.png",
-    "数据库/img/Pasted image 20230315235059.png",
-    "数据库/img/Pasted image 20230315234718.png",
-    "数据库/img/Pasted image 20230315234619.png",
-    "数据库/img/Pasted image 20230315234428.png",
-    "数据库/img/Pasted image 20230315234330.png",
-    "数据库/img/Pasted image 20230315233152.png",
-    "数据库/第二章_关系模型与独立性.md",
-    "数据库/img/Pasted image 20230315233002.png",
-    "数据库/第一章_数据库概念.md",
-    "数据库/第三章_6设计阶段.md",
-    "数据库/img/Pasted image 20230315232757.png",
-    "数据库/img/Pasted image 20230315232706.png",
-    "数据库/img/Pasted image 20230315232612.png",
-    "数据库/第七章_DQL_DMLsql.md",
-    "数据库/第八章_DML.md",
-    "数据库/第四章_范式.md",
+    "数据库/img/Pasted image 20230317001556.png",
+    "数据库/img/Pasted image 20230317000942.png",
+    "数据库/第七章_DQL_DDLsql.md",
+    "数据库/img/Pasted image 20230317000820.png",
+    "数据库/img/Pasted image 20230317000739.png",
+    "数据库/img/Pasted image 20230317000038.png",
+    "Day Planners/Day Planner-20230317.md",
+    "数据库/img/Pasted image 20230316235459.png",
+    "数据库/img/Pasted image 20230316234541.png",
+    "数据库/img/Pasted image 20230316234250.png",
+    "数据库/img/Pasted image 20230316233727.png",
+    "数据库/第八章_DML和视图索引.md",
     "数据库/第五章_安全性DCL.md",
+    "数据库/img/Pasted image 20230316233540.png",
+    "数据库/img/Pasted image 20230316232200.png",
     "数据库/第六章_并发.md",
+    "数据库/第一章_数据库概念.md",
+    "数据库/第三章_6设计阶段与完整性.md",
+    "数据库/第二章_关系模型与独立性.md",
+    "数据库/第四章_关系模式优化范式.md",
+    "Day Planners/Day Planner-20230316.md",
     "math/第十一课_多元函数与微分.pdf",
     "math/第十课_空间解析几何与向量.pdf",
     "math/第九课_分部积分求定积分.pdf",
@@ -227,8 +217,6 @@
     "c语言/数据类型.md",
     "c语言/宏定义.md",
     "c语言/专升本_做题.md",
-    "c语言/专升本_细枝末节.md",
-    "c语言/内存分区.md",
     "math/第八课_定积分.pdf",
     "math/第六课_不定积分.pdf",
     "math/第七课_不定积分二.pdf"
