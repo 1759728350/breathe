@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库/第二章_关系模型与独立性.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "26b80a7e2665a586",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "数据库/第八章_DML和视图索引.md",
+                "file": "数据库/第四章_关系模式优化范式.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +25,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库/第七章_DQL_DDLsql.md",
+                "file": "数据库/第八章_DML和视图索引.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "84b6a9026e230da3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "数据库/第七章_DDLsql.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d0cdcd6b86d2bea1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "数据库/第九章_DQL.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 374.5
+    "width": 227.5
   },
   "right": {
     "id": "fd22a51f8a10e99d",
@@ -172,11 +184,19 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "26b80a7e2665a586",
+  "active": "b0bf869af293219a",
   "lastOpenFiles": [
+    "数据库/第九章_DQL.md",
+    "数据库/img/Pasted image 20230318001937.png",
+    "数据库/第七章_DDLsql.md",
+    "数据库/第八章_DML和视图索引.md",
+    "数据库/第四章_关系模式优化范式.md",
+    "Day Planners/Day Planner-20230318.md",
+    "数据库/img/Pasted image 20230317215358.png",
+    "数据库/第三章_6设计阶段与完整性.md",
+    "数据库/第二章_关系模型与独立性.md",
     "数据库/img/Pasted image 20230317001556.png",
     "数据库/img/Pasted image 20230317000942.png",
-    "数据库/第七章_DQL_DDLsql.md",
     "数据库/img/Pasted image 20230317000820.png",
     "数据库/img/Pasted image 20230317000739.png",
     "数据库/img/Pasted image 20230317000038.png",
@@ -184,16 +204,9 @@
     "数据库/img/Pasted image 20230316235459.png",
     "数据库/img/Pasted image 20230316234541.png",
     "数据库/img/Pasted image 20230316234250.png",
-    "数据库/img/Pasted image 20230316233727.png",
-    "数据库/第八章_DML和视图索引.md",
     "数据库/第五章_安全性DCL.md",
-    "数据库/img/Pasted image 20230316233540.png",
-    "数据库/img/Pasted image 20230316232200.png",
     "数据库/第六章_并发.md",
     "数据库/第一章_数据库概念.md",
-    "数据库/第三章_6设计阶段与完整性.md",
-    "数据库/第二章_关系模型与独立性.md",
-    "数据库/第四章_关系模式优化范式.md",
     "Day Planners/Day Planner-20230316.md",
     "math/第十一课_多元函数与微分.pdf",
     "math/第十课_空间解析几何与向量.pdf",
@@ -215,8 +228,6 @@
     "c语言/函数.md",
     "c语言/数组.md",
     "c语言/数据类型.md",
-    "c语言/宏定义.md",
-    "c语言/专升本_做题.md",
     "math/第八课_定积分.pdf",
     "math/第六课_不定积分.pdf",
     "math/第七课_不定积分二.pdf"
