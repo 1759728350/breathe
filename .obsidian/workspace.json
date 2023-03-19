@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "数据库/第八章_DML和视图索引.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -37,8 +37,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库/第七章_DDLsql.md",
-                "mode": "source",
+                "file": "数据库/第三章_6设计阶段与完整性.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -50,13 +50,13 @@
               "type": "markdown",
               "state": {
                 "file": "数据库/第九章_DQL.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据库/第八章_DML和视图索引.md",
+                "file": "数据库/第三章_6设计阶段与完整性.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据库/第八章_DML和视图索引.md",
+                "file": "数据库/第三章_6设计阶段与完整性.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据库/第八章_DML和视图索引.md"
+                "file": "数据库/第三章_6设计阶段与完整性.md"
               }
             }
           }
@@ -184,12 +184,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b0bf869af293219a",
+  "active": "84b6a9026e230da3",
   "lastOpenFiles": [
-    "数据库/第九章_DQL.md",
-    "数据库/img/Pasted image 20230318001937.png",
     "数据库/第七章_DDLsql.md",
+    "数据库/第九章_DQL.md",
     "数据库/第八章_DML和视图索引.md",
+    "数据库/img/Pasted image 20230319151003.png",
+    "数据库/img/Pasted image 20230319145513.png",
+    "数据库/img/Pasted image 20230319145159.png",
+    "数据库/img/Pasted image 20230319130606.png",
+    "Day Planners/Day Planner-20230319.md",
+    "数据库/img/Pasted image 20230318001937.png",
     "数据库/第四章_关系模式优化范式.md",
     "Day Planners/Day Planner-20230318.md",
     "数据库/img/Pasted image 20230317215358.png",
@@ -199,11 +204,7 @@
     "数据库/img/Pasted image 20230317000942.png",
     "数据库/img/Pasted image 20230317000820.png",
     "数据库/img/Pasted image 20230317000739.png",
-    "数据库/img/Pasted image 20230317000038.png",
     "Day Planners/Day Planner-20230317.md",
-    "数据库/img/Pasted image 20230316235459.png",
-    "数据库/img/Pasted image 20230316234541.png",
-    "数据库/img/Pasted image 20230316234250.png",
     "数据库/第五章_安全性DCL.md",
     "数据库/第六章_并发.md",
     "数据库/第一章_数据库概念.md",
@@ -227,7 +228,6 @@
     "c语言/指针.md",
     "c语言/函数.md",
     "c语言/数组.md",
-    "c语言/数据类型.md",
     "math/第八课_定积分.pdf",
     "math/第六课_不定积分.pdf",
     "math/第七课_不定积分二.pdf"

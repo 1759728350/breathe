@@ -140,6 +140,35 @@ add BIRTHDAT DATE;
 
 
 ### 约束
+##### 常用约束
+```sql
+主键
+如果是复合主键就只能写在下面
+primary key(bid,uid,borrowtime),
+
+非空not null
+
+外键
+两种写法:
+写在属性旁边
+bid char(6) not null foreign key references book(id),
+写在下面
+foreign key(bid) references book(bid)
+
+唯一约束unique,直接后面加unique,防止重复
+
+检查约束check
+age int check(age >= 18 and age <=60)//模糊条件一般用check约束
+
+自增长identity(初始值,步长)//自增长的列在插入时不需要给值
+
+default 默认
+gender VARCHAR(10) DEFAULT 'unknown'
+如果是数字int类型就是 default 0
+
+```
+
+
 ##### 增加删除约束  
 ```sql  
 alter table 表名  
@@ -147,18 +176,23 @@ add constraint 约束名 约束内容
 ##删除约束  
 alter table 表名  
 drop constraint 约束名  
-```  
+```
 
-##### 约束
+大题中
+![](img/Pasted%20image%2020230319151003.png)
 ```sql
-主键,外键,非空not null
-唯一约束unique,直接后面加unique
-检查约束check
-age int check(age >= 18 and age <=60)//模糊条件一般用check约束
+alter table bookborrow
+add constraint PKBorrow primary key(uid,bookid,borrowdate)
+
+//如果是非空就是
+add constraint PKBorrow2 not null(uid)
 ```
 
 
-### 增删改查总结
+
+
+
+### 增删改查大题总结
 数据库create drop alter  
 数据库里的alter包含add remove modify    
 表create drop alter   
@@ -169,7 +203,7 @@ age int check(age >= 18 and age <=60)//模糊条件一般用check约束
 <font color=#F09B59 style=" font-weight:bold;">列的增加是add,库文件的删除和修改是remove和modify</font>
 
 
-##### 代码大题
+##### 建表练习1
 技能课会考  
 ![](img/Pasted%20image%2020230317215358.png)
 
@@ -193,6 +227,7 @@ create table 保健所
     ...
 )
 ```
+##### 从表练习
 ```sql
 create table 保健
 (
@@ -230,6 +265,19 @@ and 保健.健康状况='良好';
 select 姓名,性别,年龄 from 职工
 join 保健 on 职工.职工号 = 保健.职工号
 where 保健.健康状况='良好';
+```
+
+##### 建表练习2
+<font color=#F09B59 style=" font-weight:bold;">一定要熟练!!!</font>
+![](img/Pasted%20image%2020230319130606.png)
+```sql
+create table phoneInfo(
+phoneID int identity(1,1) primary key,
+p_type varchar(50) not null unique,
+p_brandid int foreign key references phonebrand(brandid),
+quantity int not null check(quantity >= 0),
+color varchar(20) check(color in ('黑色','白色','银色'))
+)
 ```
 
 

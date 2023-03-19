@@ -40,7 +40,24 @@ delete from S
 where SDEPT in(’计算机系’,’数学系’,’信息系’)  
 and (AGE between 18 and 20)  
 ```  
-  
+
+##### 增删改合法性
+受到参照完整性的制约通常  情况下，  
+若想插入一条全新的记录是从主表开始:若想删除一条记录是从从表开始;  
+
+
+从表随意删除,  
+但<font color=#66CC99 style=" font-weight:bold;">从表插入时要注意</font>    
+插入要注意外键是否在主表里有,没有的话就不能插入    
+
+主表随意插入,
+但<font color=#66CC99 style=" font-weight:bold;">主表删除时要注意</font>   
+但删除要注意是否在别的从表里被引用,引用了就不能删    
+![](img/Pasted%20image%2020230319145159.png)
+![](img/Pasted%20image%2020230319145513.png)
+borrow从表里没有用到1002,所以可以删user主表里的数据  
+
+
 #### 视图  
 <font color=#66CC99 style=" font-weight:bold;">视图只需要了解创建部分的代码即可</font>  
 独立性:[外模式](第二章_关系模型与独立性#####三级模式分别是什么？有什么名称？)  
@@ -51,7 +68,9 @@ and (AGE between 18 and 20)
 <font color=#66CC99 style=" font-weight:bold;">简化代码</font>,但不能提高数据查询效率  
 能提高查询效率的是索引  
 ![](img/Pasted%20image%2020230317001556.png)  
-新的虚标需要改列名时,列名不能省略  
+
+##### 创建视图
+新的虚表需要改列名时,列名不能省略  
 在视图中包含表达式的情况,列名不能省略  
 创建视图VW11，显示计算机系学生20年以后的年龄,姓名和学号  
 ```sql  
@@ -137,7 +156,9 @@ on 表名 (列名 (升序用asc),name desc);
 ![](img/Pasted%20image%2020221230190425.png)  
 
 
-## Sql定义
+### Sql定义
 结构化查询语言
 ![](img/Pasted%20image%2020230316213659.png)
 ![](img/Pasted%20image%2020230316213952.png)
+
+
