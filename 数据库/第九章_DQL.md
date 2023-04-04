@@ -90,7 +90,7 @@ group by sdept;
 ```  
   
 #### having  
-只有在使用groupby时才会用having  
+<font color=#F09B59 style=" font-weight:bold;">只有在使用groupby时才会用having</font>  
 where是在groupby<font color=#66CC99 style=" font-weight:bold;">之前执行</font>的  
 <font color=#66CC99 style=" font-weight:bold;">having是对分组聚合后的数据进行处理</font>  
   
@@ -150,7 +150,7 @@ from S,SC where sc.sno = s.sno and 条件
 不能自己定义   
 
 局部变量 一个@开头  
-申明方式:
+##### 变量申明和赋值
 ```sql
 declare @x1 int,@x2 char(10)
 
@@ -160,6 +160,8 @@ set @x2 = '200';
 //输出
 print '我的银行卡密码是'+@x1  //我的银行卡密码是100
 ```
+
+
 
 ### 存储过程
 系统存储过程以sp_开头  
@@ -235,8 +237,8 @@ print'总成绩:'+str(@sum)+'平均成绩'+str(@avg)
 删除存储过程就一个drop procedure 名就可以了  
 
 ##### 总结
-T-SQL中的变量分为:  
-全局变量，也叫系统变量，名字以@@开头，且不能自定义，具有的含义是由系统定义好的，直接使用。  
+T-SQL中的变量分为:    
+全局变量，也叫系统变量，名字以@@开头，且不能自定义，具有的含义是由系统定义好的，直接使用。    
 自定义变量，也就局部变量，名字以@开头，由用户根据需要定义。    
 2、T-SQL中声明变量的语句??  
 declare局部变量名变量类型  
@@ -326,7 +328,7 @@ end
 ```
 
 ##### update触发器
-3、创建一个名为tr_03的后触发器，当学生表student中更新学生学号时，若该生已经选课，则提示“该生已经选课，禁止更新”并回滚该事务
+3、创建一个名为tr_03的后触发器，当学生表student中更新学生学号时，若该生已经选课，则提示“该生已经选课，禁止更新”并回 滚该事务
 ```sql
 create trigger tr_03
 on student

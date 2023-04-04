@@ -8,11 +8,11 @@ values ('001','张总','男',19,'计算机系');
 ##或  
 insert into s  
 values ('001','张总',19,'男','计算机系')  
-##顺序和个数一样可以省略前面列名  
-##当然需要强行凑可以用null  
+--顺序和个数一样可以省略前面列名  
+--当然需要强行凑可以用null  
 insert into s  
 values ('001','张总',19,null,null)  
-##这样也可以省略列名  
+--这样也可以省略列名  
 ```  
   
 ##### update  
@@ -26,9 +26,9 @@ where sdept = '计算机系'
 注意null的使用  
 ```sql  
 update sc set grade = 100  
-where grade is null     //grade = null也可以  
+where grade is null     --grade = null也可以  
   
-##将001号学生的成绩改成nu11  
+--将001号学生的成绩改成nu11  
 update sc set grade = null  
 where sno = '001'  
 ```  
@@ -104,7 +104,7 @@ with check option作用:
 基于视图创建视图  
 4）基于视图VW44创建视图VW55，显示计算机系18岁和20岁女生的学号.姓名和年龄  
 ```sql  
-create view vw44  ##这个显然不是行列子集视图  
+create view vw44  --这个显然不是行列子集视图  
 as   
 select * from vm55  
 where sage = 18 or sage = 20  

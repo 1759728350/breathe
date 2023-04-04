@@ -37,7 +37,7 @@
 ##### 首字下沉
 插入-》<font color=#F09B59 style=" font-weight:bold;">首字下沉</font>
     
-   选中……，在"插入"选项卡下"文本"组中,单击"首字下沉"选择"下沉"。
+   选中……，在"插入"选项卡下"<font color=#99CCFF style=" font-weight:bold;">文本</font>"组中,单击"首字下沉"选择"下沉"。
                                                      选择"<font color=#99CCFF style=" font-weight:bold;">首字下沉选项</font>"  ，在对话框中设置……，单击"确定"按钮。
 
 
