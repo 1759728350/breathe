@@ -8,47 +8,51 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a568b0dc44ba230b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "总结.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b1a93133c1ff3fff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "数据库/第九章_DQL.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "c9c569cc9bfa353c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库/第二章_关系模型与独立性.md",
+                "file": "数据库/第四章_关系模式优化范式.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "c8ef2b80773ee448",
+            "id": "cc49951915b8e465",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "数据库/第八章_DML和视图索引.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6fb022077265cbaa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "数据库/第七章_DDLsql.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aa68728ed9aae6f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "数据库/第五章_安全性DCL.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -117,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "总结.md",
+                "file": "数据库/第四章_关系模式优化范式.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "总结.md",
+                "file": "数据库/第四章_关系模式优化范式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "总结.md"
+                "file": "数据库/第四章_关系模式优化范式.md"
               }
             }
           }
@@ -179,53 +183,53 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a568b0dc44ba230b",
+  "active": "c9c569cc9bfa353c",
   "lastOpenFiles": [
+    "Day Planners/Day Planner-20230418.md",
     "数据库/第三章_6设计阶段与完整性.md",
     "数据库/第二章_关系模型与独立性.md",
-    "数据库/第九章_DQL.md",
-    "数据结构/顺序结构.md",
-    "软件测试/第一章.md",
-    "数据库/第八章_DML和视图索引.md",
-    "Day Planners/Day Planner-20230404.md",
-    "软件测试/img/Pasted image 20230401163010.png",
-    "数据库/第一章_数据库概念.md",
-    "Day Planners/Day Planner-20230401.md",
-    "c语言/专升本_做题.md",
-    "Day Planners/Day Planner-20230330.md",
-    "Day Planners",
-    "c语言/专升本_细枝末节.md",
-    "数据库/第五章_安全性DCL.md",
     "数据库/第四章_关系模式优化范式.md",
     "数据库/第七章_DDLsql.md",
+    "数据库/第八章_DML和视图索引.md",
     "数据库/第六章_并发.md",
-    "总结.md",
+    "数据库/第一章_数据库概念.md",
+    "数据库/第五章_安全性DCL.md",
+    "计算机基础/第三章_word.md",
+    "数据结构/总复习.md",
+    "数据库/第九章_DQL.md",
+    "英语/作文.md",
+    "Day Planners/Day Planner-20230415.md",
     "计算机基础/操作题.md",
-    "math/内化/第四课_连续与求导总结.md",
-    "Day Planners/Day Planner-20230329.md",
-    "math/内化/第三课_重要极限总结.md",
+    "英语",
+    "Day Planners/Day Planner-20230413.md",
+    "计算机基础/第二章_操作系统.md",
+    "计算机基础/第一章_计算机基础知识.md",
+    "计算机基础/第四章_excel_ppt.md",
+    "c语言/嵌入式c_内存操作.md",
+    "Day Planners/Day Planner-20230412.md",
+    "Day Planners/Day Planner-20230408.md",
+    "数据结构/img/Pasted image 20230406153810.png",
+    "数据结构/img/Pasted image 20230406153144.png",
+    "数据结构/img/Pasted image 20230406153110.png",
+    "数据结构/img/Pasted image 20230406153046.png",
+    "数据结构/img/Pasted image 20230406153009.png",
+    "Day Planners/Day Planner-20230406.md",
+    "c语言/结构体.md",
+    "c语言/数据类型.md",
+    "c语言/数组.md",
+    "软件测试/img/Pasted image 20230401163010.png",
+    "Day Planners",
     "math/第四课_连续与求导.pdf",
-    "math/内化/积分.md",
-    "math/内化/第五课_微分及导数其他性质总结.md",
     "math/第十一课_多元函数与微分.pdf",
     "math/第十课_空间解析几何与向量.pdf",
     "math/第三课_重要极限.pdf",
-    "math/第二课_函数复习与极限.md",
-    "计算机基础/word操作题.md",
-    "Day Planners/Day Planner-20230328.md",
     "excel_ppt.txt",
     "2-4.txt",
     "1-7.txt",
     "word_excel.txt",
-    "word.txt",
     "计算机基础/img/Pasted image 20230323211825.png",
     "计算机基础/img/Pasted image 20230323211732.png",
     "计算机基础/img/Pasted image 20230323211702.png",
-    "计算机基础/img/Pasted image 20230323211619.png",
-    "计算机基础/img/Pasted image 20230323210958.png",
-    "计算机基础/img/Pasted image 20230323210819.png",
-    "计算机基础/img/Pasted image 20230323205634.png",
-    "计算机基础/img/Pasted image 20230323205547.png",
-    "数据库/img/Pasted image 20230319151003.png"
+    "计算机基础/img/Pasted image 20230323211619.png"
   ]
 }
