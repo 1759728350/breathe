@@ -141,7 +141,7 @@ this.$ = this.jQuery = jQuery.noConflict(true);
    function translate(difComment) {
 
 		var appid = '20221020001403033';
-		var key = '8FUVovzeR3b2GgxZw8h4';
+		var key = '你的密钥';
 		var salt = (new Date).getTime();
 		var query = difComment.innerText;
 
